@@ -9,12 +9,12 @@ inj_per: The injection percent of fake users<br />
 rec: The recommender system to attack<br />
 attack: The attack method<br />
 # File description
-**Model**: Provide the implementation of diferrent recommender algorithm inlcuding LightGCN
-**GNNAttack**: The attack model of AutoAttack
-**generate**: The generation of fake users
-**runner**: Train the attack model
-**utils**: Custom packages
-By modifying the parameters, you can try the effects of different attack methods on a variety of recommendation models.<br />
+**Model**: Provide the implementation of diferrent recommender algorithm inlcuding LightGCN<br />
+**GNNAttack**: The attack model of AutoAttack<br />
+**generate**: The generation of fake users<br />
+**runner**: Train the attack model<br />
+**utils**: Custom packages<br />
+By modifying the parameters, you can try the effects of different attack methods on a variety of recommendation models.<br /><br />
 # Requirement
 Python 3.7.0<br />
 Pytorch 1.9.0<br />
