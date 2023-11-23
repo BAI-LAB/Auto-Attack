@@ -1,6 +1,25 @@
 # CIKM2023-AutoAttack
-Implementation of AutoAttack.
+Implementation of AutoAttack.<br />
 Guo, Sihan, Ting Bai et al. "Targeted Shilling Attacks on GNN-based Recommender Systems." Proceedings of the 32nd ACM International Conference on Information and Knowledge Management. 2023.<br />
-This is the code for AutoAttack.<br />
-Running main.py can start training the attack model.
+# Run the model: python main.py
+Parameters:<br />
+start_user: The userID of the target user<br />
+target_item: The itemID of the target item<br />
+inj_per: The injection percent of fake users<br />
+rec: The recommender system to attack<br />
+attack: The attack method<br />
+# File description
+
 By modifying the parameters, you can try the effects of different attack methods on a variety of recommendation models.
+# Requirement
+Python 3.7.0<br />
+Pytorch 1.9.0<br />
+# Cite
+Please cite our paper if you use this code in your own work:<br />
+@inproceedings{guo2023targeted,
+  title={Targeted Shilling Attacks on GNN-based Recommender Systems},
+  author={Guo, Sihan and Bai, Ting and Deng, Weihong},
+  booktitle={Proceedings of the 32nd ACM International Conference on Information and Knowledge Management},
+  pages={649--658},
+  year={2023}
+}
