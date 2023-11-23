@@ -20,10 +20,10 @@ Python 3.7.0<br />
 Pytorch 1.9.0<br />
 # Cite
 Please cite our paper if you use this code in your own work:<br />
-@inproceedings{guo2023targeted,
-  title={Targeted Shilling Attacks on GNN-based Recommender Systems},
-  author={Guo, Sihan and Bai, Ting and Deng, Weihong},
-  booktitle={Proceedings of the 32nd ACM International Conference on Information and Knowledge Management},
-  pages={649--658},
-  year={2023}
+@inproceedings{guo2023targeted,<br />
+  title={Targeted Shilling Attacks on GNN-based Recommender Systems},<br />
+  author={Guo, Sihan and Bai, Ting and Deng, Weihong},<br />
+  booktitle={Proceedings of the 32nd ACM International Conference on Information and Knowledge Management},<br />
+  pages={649--658},<br />
+  year={2023}<br />
 }
